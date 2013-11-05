@@ -28,7 +28,7 @@ grails.mime.types = [
         text: 'text/plain',
         xml: ['text/xml', 'application/xml']
 ]
-
+grails.resources.debug = true
 // URL Mapping Cache Max Size, defaults to 5000
 //grails.urlmapping.cache.maxsize = 1000
 

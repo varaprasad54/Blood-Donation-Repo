@@ -18,7 +18,7 @@
 	 <r:layoutResources />
 		<jq:resources />
 		<jqui:resources />
-		<jqgrid:resources />
+		%{--<jqgrid:resources />--}%
 </head>
 	<body>
 		<div id="grailsLogo" role="banner"><a href="#"><img src="${resource(dir: 'images', file: 'website_logo.jpg')}" alt="Donate Blood-Save Life" width="200" height="80"/></a></div>

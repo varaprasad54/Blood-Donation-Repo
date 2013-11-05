@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE LAYOUT */
 
 html {
-	background-color: #ddd;
+	background-color: #fff;
 	background-image: -moz-linear-gradient(center top, #aaa, #ddd);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
 	background-image: linear-gradient(top, #aaa, #ddd);
@@ -48,7 +48,8 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
+	background: url(../images/website_logo.jpg) 100% 50% no-repeat
+
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -65,7 +66,7 @@ body {
 }
 
 a:link, a:visited, a:hover {
-	color: #48802c;
+
 }
 
 a:hover, a:active {
@@ -106,10 +107,9 @@ img {
 .scaffold-list h1 {
 	border: none;
 }
-
 .footer {
-	background: #abbf78;
-	color: #000;
+	background: #887123;
+	color: #f6a828;
 	clear: both;
 	font-size: 0.8em;
 	margin-top: 1.5em;
@@ -118,7 +118,7 @@ img {
 }
 
 .footer a {
-	color: #255b17;
+	color: #000000;
 }
 
 .spinner {
@@ -149,6 +149,17 @@ img {
 	zoom: 1;
 }
 
+.main{ /*main area, contains all content and sidebars*/
+    float:left;
+    position:relative;
+    width:100%;
+    padding-top:10px;
+    float: left;
+    padding-bottom:40px;
+    clear: both;
+    font-size: 0.8em;
+    padding: 1em;
+}
 .nav li {
 	display: block;
 	float: left;
@@ -422,6 +433,8 @@ td, th {
 	padding: 0.5em 0.6em;
 	text-align: left;
 	vertical-align: top;
+    font-style: italic;
+    font-family: cursive;
 }
 
 th {

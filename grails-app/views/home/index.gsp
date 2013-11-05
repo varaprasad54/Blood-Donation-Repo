@@ -1,77 +1,59 @@
 <%--
   Created by IntelliJ IDEA.
   User: varapras1
-  Date: 10/17/13
-  Time: 8:20 PM
+  Date: 10/19/13
+  Time: 12:50 PM
   To change this template use File | Settings | File Templates.
 --%>
 
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html>
+<html>
 <head>
-    <meta name="layout" content="main"/>
-    <jq:resources/>
-    <jqui:resources/>
-    <jqgrid:resources/>
-    <link rel="stylesheet" href="/resources/demos/style.css"/>
-    <script>
-        $(function () {
-            $("#accordion").accordion({
-              collapsible:true
-            });
-        });
-    </script>
+    <meta name="layout" content="siteLayout"/>
 </head>
 
 <body>
-<div id="accordion">
-    <h3>About Us</h3>
+<div id="site_content">
+    <ul id="images">
+        <li><a href="http://facebook.com/meetblooddonor"><img src="images/banner1.jpg" width="600" height="300" alt=""/></a></li>
+        <li><a href="${createLink(controller: 'home',action: 'login')}"><img src="images/banner2.gif" width="600" height="300" alt=""/></a></li>
+        <li><img src="images/3.jpg" width="600" height="300" alt=""/></li>
+        <li><img src="images/4.jpg" width="600" height="300" alt=""/></li>
+        <li><img src="images/5.jpg" width="600" height="300" alt=""/></li>
+        <li><img src="images/6.jpg" width="600" height="300" alt=""/></li>
+    </ul>
 
-    <div>
-        <p>
-            Donate Blood-Save Life is a non-profit organization providing access to contact blood donors online.</p>
+    <div id="sidebar_container">
+        <div class="sidebar">
+            <h3>Latest News</h3>
+            <h4>New Website Launched</h4>
+            <h5>January 1st, 2012</h5>
 
-        <p>A person in need can visit the website to search for a suitable donor based on the blood group, city/town & contact the blood donor directly by phone/email.
+            <p>2012 sees the redesign of our website. Take a look around and let us know what you think.<br/><a
+                    href="#">Read more</a></p>
+            <h4>20% Discount</h4>
+            <h5>March 1st, 2012</h5>
 
-        </p>
+            <p>We are offering a 20% discount to all new customers.<br/><a href="#">Read more</a></p>
+        </div>
     </div>
 
-    <h3>Why we started</h3>
+    <div class="content">
+        <h1>Welcome to the Blood Donation Community</h1>
 
-    <div>
-        <p>
-            Have you at anytime witnessed a relative of yours or a close friend searching eagerly for a blood donor, when blood banks say out of stock, the donors in mind are out of reach and the time keeps ticking?
+        <p>Have you at anytime witnessed a relative of yours or a close friend searching frantically for a blood donor,
+        when blood banks say out of stock, the donors in mind are out of reach and the time keeps ticking?
         </p>
 
         <p>
-            Have you witnessed loss of life for the only reason that a donor was not available at the most needed hour?</p>
-
-        <p>Is it something that we as a society can do nothing to prevent? This thought laid our organisation.
-
-        </p>
-    </div>
-
-    <h3>Section 3</h3>
-
-    <div>
-        <p>
-            todo
-        </p>
-        <ul>
-            <li>List item one</li>
-            <li>List item two</li>
-            <li>List item three</li>
-        </ul>
-    </div>
-
-    <h3>Section 4</h3>
-
-    <div>
-        <p>
-            todo
+            Have you witnessed loss of life for the only reason that a donor was not available at the most needed hour? Is it something that we
+            as a society can do nothing to prevent? This thought laid me to start this Project.
         </p>
 
     </div>
 </div>
+
 </body>
 </html>

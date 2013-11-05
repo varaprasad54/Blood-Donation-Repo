@@ -13,7 +13,7 @@ class BloodDonationUserController {
 
 	def list(Integer max) {
 		params.max = Math.min(max ?: 10, 100)
-		[bloodDonationUserInstanceList: BloodDonationUser.list(params), bloodDonationUserInstanceTotal: BloodDonationUser.count()]
+		//[bloodDonationUserInstanceList: BloodDonationUser.list(params), bloodDonationUserInstanceTotal: BloodDonationUser.count()]
 	}
 
 	def create() {
